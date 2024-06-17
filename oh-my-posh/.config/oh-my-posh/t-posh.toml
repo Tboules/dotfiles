@@ -20,7 +20,7 @@ newline = true
 type = "prompt"
 
   [[blocks.segments]]
-  background = "#80A1C1"
+  background = "#00897b"
   foreground = "#ffffff"
   leading_diamond = ""
   style = "diamond"
@@ -48,9 +48,9 @@ type = "prompt"
     fetch_status = true
 
   [[blocks.segments]]
-  background = "#00897b"
+  background = "#77af9c"
   background_templates = [ "{{ if gt .Code 0 }}#e91e63{{ end }}" ]
-  foreground = "#ffffff"
+  foreground = "#193549"
   template = "<parentBackground></>  "
   style = "diamond"
   trailing_diamond = ""
