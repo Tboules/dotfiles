@@ -23,6 +23,7 @@ type = "prompt"
   background = "#00897b"
   foreground = "#ffffff"
   leading_diamond = ""
+  trailing_diamond = ""
   style = "diamond"
   type = "path"
 
@@ -40,24 +41,13 @@ type = "prompt"
   foreground = "#000000"
   foreground_templates = [ "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffffff{{ end }}" ]
   template = " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }} "
-  style = "powerline"
+  style = "diamond"
+  trailing_diamond = ""
   type = "git"
 
     [blocks.segments.properties]
     branch_max_length = 25
     fetch_status = true
-
-  [[blocks.segments]]
-  background = "#77af9c"
-  background_templates = [ "{{ if gt .Code 0 }}#e91e63{{ end }}" ]
-  foreground = "#193549"
-  template = "<parentBackground></>  "
-  style = "diamond"
-  trailing_diamond = ""
-  type = "status"
-
-    [blocks.segments.properties]
-    always_enabled = true
 
 [[blocks]]
 alignment = "left"
