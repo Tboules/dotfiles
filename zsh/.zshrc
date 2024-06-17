@@ -107,4 +107,4 @@ eval "$(zoxide init zsh)"
 alias cd="z"
 
 # Oh-my-posh
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/json.omp.json')"
+eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/t-posh.toml)"
