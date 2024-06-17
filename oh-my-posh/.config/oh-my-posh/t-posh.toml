@@ -20,8 +20,8 @@ newline = true
 type = "prompt"
 
   [[blocks.segments]]
-  background = "#00897b"
-  foreground = "#ffffff"
+  background = "transparent"
+  foreground = "#00897b"
   leading_diamond = ""
   trailing_diamond = ""
   style = "diamond"
