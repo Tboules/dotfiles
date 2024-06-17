@@ -30,14 +30,14 @@ type = "prompt"
     style = "agnoster_full"
 
   [[blocks.segments]]
-  background = "#D9CFC1"
+  background = "#9AADBF"
   background_templates = [
-  "{{ if or (.Working.Changed) (.Staging.Changed) }}#f36943{{ end }}",
+  "{{ if or (.Working.Changed) (.Staging.Changed) }}#C17767{{ end }}",
   "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#a8216b{{ end }}",
   "{{ if gt .Ahead 0 }}#35b5ff{{ end }}",
   "{{ if gt .Behind 0 }}#f89cfa{{ end }}"
 ]
-  foreground = "#193549"
+  foreground = "#000000"
   foreground_templates = [ "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#ffffff{{ end }}" ]
   template = " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }} "
   style = "powerline"
@@ -74,4 +74,15 @@ type = "prompt"
     background = 'transparent'
     template = '❯'
 
+[transient_prompt]
+  foreground_templates = [
+    "{{if gt .Code 0}}red{{end}}",
+    "{{if eq .Code 0}}magenta{{end}}",
+  ]
+  background = 'transparent'
+  template = '❯ '
 
+[secondary_prompt]
+  foreground = 'magenta'
+  background = 'transparent'
+  template = '❯❯ '
