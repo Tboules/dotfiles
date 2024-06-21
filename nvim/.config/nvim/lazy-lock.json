@@ -1,6 +1,6 @@
 {
-  "lazy.nvim": { "branch": "main", "commit": "c501b429cf995c645454539b924aaefae45bb9eb" },
-  "moonfly": { "branch": "master", "commit": "ed4b1b1220a6f040bd17043ae7c9458af0a3b16b" },
+  "lazy.nvim": { "branch": "main", "commit": "bc620783663ab09d16bff9fdecc07da65b2a1528" },
+  "moonfly": { "branch": "master", "commit": "dabe939c146030b5b6a9f792ee7115da68ed1ed3" },
   "transparent.nvim": { "branch": "main", "commit": "fd35a46f4b7c1b244249266bdcb2da3814f01724" },
   "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" }
 }
