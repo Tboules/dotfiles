@@ -16,6 +16,8 @@ return {
 				"TelescopePromptBorder",
 				"SagaBorder",
 				"SagaNormal",
+        "NeoTreeNormal",
+        "NeoTreeNormalNC"
 			},
 		})
 
