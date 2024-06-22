@@ -215,6 +215,8 @@ workspace 9 output DP-0
 
 assign [class="obsidian"] 7
 exec --no-startup-id flatpak run md.obsidian.Obsidian
+exec --no-startup-id firefox
+exec --no-startup-id alacritty
 
 # start up commands
 exec --no-startup-id "~/scripts/start_up.sh"
