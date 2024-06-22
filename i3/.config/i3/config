@@ -190,7 +190,6 @@ bindsym $mod+r mode "resize"
 default_border pixel 1
 gaps inner 6px
 gaps outer 3px 
-gaps top 28px
 
 # keybinds to open apps
 bindsym $mod+o mode "$mode_launcher"

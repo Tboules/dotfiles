@@ -29,7 +29,7 @@
 ;==========================================================
 
 [colors]
-background = #92111111
+background = #95111111
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
@@ -39,10 +39,10 @@ alert = #bd2c40
 
 [bar/example]
 monitor = ${env:MONITOR}
-width = 99.2%
+width = 100%
 height = 38
-offset-x = .4%
-offset-y = 10px
+offset-x = 0
+offset-y = 0
 ; radius = 6.0
 fixed-center = true
 
@@ -58,6 +58,8 @@ line-color = #f00
 padding-left = 2
 padding-right = 2
 
+bottom = true
+
 module-margin-left = 1
 module-margin-right = 2
 
@@ -72,7 +74,7 @@ seperator-color = ${colors.foreground}
 tray-position = right
 tray-padding = 2
 
-override-redirect = true
+override-redirect = false
 
 cursor-click = pointer
 cursor-scroll = ns-resize
