@@ -22,6 +22,7 @@ return {
 				c = { "clang_format" },
 				go = { "gofmt" },
 				python = { "black" },
+				sh = { "beautysh", "shfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
