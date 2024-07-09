@@ -23,6 +23,7 @@ return {
 				go = { "gofmt" },
 				python = { "black" },
 				sh = { "beautysh", "shfmt" },
+				sql = { "sqlfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
