@@ -5,6 +5,7 @@ local map = vim.keymap.set
 local defaults = { noremap = true, silent = true }
 
 map("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
+map("n", "<leader>rr", ":e!<CR>", { desc = "reload buffer" })
 
 -- window management
 map("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
