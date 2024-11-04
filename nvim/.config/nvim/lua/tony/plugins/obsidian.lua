@@ -12,7 +12,7 @@ return {
 		workspaces = {
 			{
 				name = "Gnosis",
-				path = "/home/tony/Documents/vault/gnosis/",
+				path = "/Users/anthonyboules/Documents/vault/gnosis/",
 			},
 		},
 		templates = {
